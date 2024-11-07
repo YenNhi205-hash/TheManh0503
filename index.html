@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script><link href="https://feeldreams.github.io/heibuka/style.css" rel="stylesheet" type="text/css" />
+  <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+  
+<head>
+<title>Mylove</title>
+<link rel="icon" type="image/x-icon" href="https://www.palingit.com/favicon.ico">
+<meta name="description" content="HTML Replit Coding">
+<style>
+body {
+  background-color: #f8c8d2; /* Soft pink background */
+  color: #5a2a4b; /* Darker pink text */
+  font-family: 'Courier New', cursive; /* Set font globally */
+}
+#bq {
+  background-color: #4d2c2c4a; /* Set background color to white */
+  padding: 20px; /* Add some padding for a nicer appearance */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add subtle shadow */
+}
+
+#Content {
+  opacity: 1;
+  margin-top: 16vh;
+  text-align: center;
+  color: #5a2a4b; /* Pink text */
+  font-family: 'Courier New', cursive; /* Apply font to content */
+}
+
+#ket {
+  font-family: 'Courier New', cursive;
+  font-size: 28px; /* Slightly larger font size */
+  color: #fff9f9; /* Lighter pink */
+  text-shadow: 2px 2px 7px rgb(190, 101, 101); /* Add soft shadow */
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition effect */
+}
+
+#halo, #pesan1, #pesan2, #pesan3, #pesan4, #pesan5, #pesan6, #opsL, #By, #kataditolak {
+  font-family: 'Courier New', cursive; /* Apply font to all specific elements */
+  
+}
+
+#opsL {
+  font-size: 18px;
+  color: #ff3399; /* Pink for "next" button */
+}
+
+#Tombol {
+  margin-top: 20px;
+}
+
+#By {
+  font-size: 20px;
+  color: #ff3399; /* Button in pink */
+  text-decoration: none;
+}
+
+#stikerditolak {
+  max-width: 100%;
+}
+
+#wallpaper {
+  opacity: 0.6;
+}
+
+#beneranblur {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Style for SweetAlert buttons */
+.swal2-popup {
+  background-color: #ffebef; /* Light pink background */
+  color: #5a2a4b; /* Darker text color */  font-family: 'Courier New', cursive; /* Font styling */
+  border-radius: 10px; /* Rounded corners for a softer look */
+  padding: 20px; /* Add padding for better spacing */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow */
+}
+
+.swal2-confirm {
+  background-color: #ff3399; /* Pink button color */
+  color: white;
+}
+
+.swal2-cancel {
+  background-color: #ff5f77; /* Lighter pink cancel button */
+  color: white;
+}
+
+</style>
+</head>
+<body>
+	
+  <iframe width="0" height="0" src="https://www.youtube.com/embed/DJqSVAhxE7s?autoplay=1&controls=0&modestbranding=1&showinfo=0&rel=0" id="linkmp3" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+
+   
+   <div id="bodyblur">
+     <!-- Wallpaper --><img src="https://i.pinimg.com/originals/56/5b/fb/565bfb5a5c4e83088fe88812993ee5ce.gif" id="wallpaper"/><div id="beneranblur"></div>
+   </div>
+   
+   <div id='Content'>
+
+     <div id="kadoIn">
+<!-- Tombol Surat -->
+<img src="img/snapedit_1730996120808.png" style="width: 300px; height: 300px;" />
+     </div>
+     <p id="ket">Chạm để mở quà nha bé 🫧</p>
+
+     <div class="kumpulanstiker">
+         <!-- Stiker untuk Konten -->
+         <img src="https://i.pinimg.com/originals/c1/cf/fa/c1cffa0a51821fac89dbd9f18ac2bd71.gif" id="fotostiker" style="width: 3000px; height: 300px;"/>
+         <img src="https://i.pinimg.com/originals/b9/67/4f/b9674f3f995aba177250894d57f42bbf.gif" id="fotostiker1"/>
+         <img src="https://i.pinimg.com/originals/8a/e5/8f/8ae58f80428e4528e08b69add931081d.gif" id="fotostiker2"/>
+         <img src="https://i.pinimg.com/originals/9e/aa/98/9eaa98477b0467b26d3af41f56168a04.gif" id="fotostiker3"/>
+         <img src="img/123.jpg" id="fotostiker4"/>
+         
+         <img src="https://i.pinimg.com/originals/83/bc/27/83bc272242ca303af7e324a4a7b32cf8.gif" id="fotostiker5"/>
+     </div>
+     
+     <p id="halo" class="halo"></p>
+     
+     <div><blockquote id='bq' data-text='💌 '>
+       <p id="kalimat">Hôm nay anh ở đây muốn nói với em một điều nho nhỏ 💭</p>
+
+       <!-- Pesan -->
+       <p id="pesan1">Chạm đủ 4 love nha nàng</p>
+       <div id="kolombaru">
+         <li id="lv1"> 💗</li>
+         <li id="lv2"> 💗</li>
+         <li id="lv3"> 💗</li>
+         <li id="lv4"> 💗</li>
+       </div>
+
+       <p id="pesan2">Mỗi ngày trôi qua, anh chỉ mong được cùng em chia sẻ những khoảnh khắc đời thường. Mỗi tin nhắn, mỗi cuộc gọi đều giúp anh cảm nhận rõ hơn sự quan trọng của em trong cuộc đời mình.</p>
+       <p id="pesan3">Anh muốn nóiii với em là Dù chúng ta cách nhau hàng trăm cây số, anh vẫn cảm thấy em luôn ở rất gần. Nhớ những lúc mình ngồi cạnh nhau, những chuyện nhỏ bé nhưng đáng quý, và cả những khoảnh khắc thật bình dị mà ấm áp.</p>
+       <p id="pesan4" class="sty2">Khoảng cách chỉ làm anh nhận ra anh trân trọng em nhiều đến nhường nào. Anh tin rằng, dù xa cách đến đâu, chỉ cần cả hai chúng ta đều giữ vững lòng mình thì mọi thứ sẽ ổn.</p>
+       <p id="pesan5" class="sty2">Anh sẽ đợi đến ngày có thể ôm em thật chặt, để anh có thể nói trực tiếp với em rằng em là người đặc biệt nhất với anh.</p>
+       <p id="pesan6" class="sty2">Thương em 💗</p>
+
+       <!-- Tombol Lanjut -->
+       <p id="opsL"> Tiếp nè </p>
+     </blockquote></div>
+
+     <!-- Tombol Kirim Pesan -->
+     <div id="Tombol"><a id="By">&#128140; Click</a></div>
+     
+     <!-- Pesan Ditolak -->
+     <div id="pesanditolak">
+       <img id="stikerditolak" src="https://feeldreams.github.io/weee.gif"/>
+       <p id="kataditolak">Bộ em thích từ chối lắm hả ? Nhưng mà em bị lừa rồi bé</p>
+     </div>
+
+   </div>
+
+<script>
+  const body = document.querySelector("body");const swalst = Swal.mixin({timer: 2300, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 90,}); audio = new Audio('' + linkmp3.src); ftganti=0;fungsi=0;fungsiAwal=0;deffotostiker=fotostiker.src;Content.style = "opacity:1;margin-top:16vh"; const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageHeight: 80,}); 
+
+  document.getElementById("kadoIn").onclick = function() {if(fungsiAwal==0){audio.play();fungsiAwal=1;kadoIn.style="transition:all .8s ease;transform:scale(10);opacity:0";wallpaper.style="transform: scale(1.5);";ket.style="display:none";setTimeout(initengahan,300);setTimeout(inipesan,500)}}
+  
+  async function inipesan(){
+    var { value: nama } = await swals.fire({
+           title: 'Nàng nhập đúng tên: Ngọc Lành mới xem tiếp được nha!!', input: 'text',
+       });
+       if (nama === "Ngọc Lành") { // Check if the name is "Yến Nhi"
+         window.nama = nama;
+         vketikhalo = "Hello embe, " + nama + " 🐇";
+         mulainama();
+       } else if (nama) {
+           await swals.fire('Tên không chính xác, chỉ embe Ngọc Lành mới được vào nha!');
+           inipesan(); // Re-run the function to ask for the name again
+       }
+}
+
+
+  
+  var tanya = 'vẫn còn món quà nhỏ cho em nè, bé có muốn xem hongg';
+  var opstanya = 'Lựa chọn của em';
+  var tompositif = 'Em đồng ý';
+  var tomnegatif = 'Em không đồng ý';
+  
+  async function pertanyaan(){var { isConfirmed: prtanya } = await swals.fire({title: nama + ' ' + tanya, text: '' + opstanya, imageUrl: '' + fotostiker5.src, showCancelButton: true, confirmButtonText: '' + tompositif, cancelButtonText: '' + tomnegatif,});
+    if(prtanya){
+	pesanwhatsapp = "Iyaa " + nama + " kangen kamu juga kok! ><";
+	menuju();
+    } else {
+	pesanwhatsapp = nama + " engga kangen kamu wleee! :p";
+	await swalst.fire({title: '' + kataditolak.innerHTML, timer: 2000, imageUrl: '' + stikerditolak.src,});
+	menuju();
+    }
+    }
+</script>
+<script src="a.js"></script>
+
+</body>
+</html>
